@@ -3,7 +3,7 @@
 
 Genipapo is an advanced multigenre dependency parser specifically tailored for Brazilian Portuguese, developed in alignment with the Universal Dependencies (UD) framework. Trained using three distinct gold-standard corpora - including journalistic texts, academic papers in the oil and gas domain, and user-generated content from X posts (formerly Twitter) - Genipapo delivers robust syntactic analysis across diverse text genres. Achieving a Labelled Attachment Score (LAS) exceeding 94%, it outperforms or matches the performance of single-genre parsers, making it a versatile tool for use in Natural Language Processing applications.
 
-This repository has all the files used in the paper "[Genipapo -- -- a Multigenre Dependency Parser for Brazilian Portuguese]", including the proposed model that can be used to parser Portuguese texts.
+This repository contains all files utilized in the paper titled "Genipapo: A Multigenre Dependency Parser for Brazilian Portuguese," accepted at the 15th STIL (Symposium on Information and Human Language Technology). It includes the proposed model, which enables parsing of Portuguese texts.
 
 ## Requirements
 
