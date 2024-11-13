@@ -191,7 +191,7 @@ The trained model will be saved in the `saved_models` directory, under `depparse
 
 ## Acknowledgments
 
-Please cite appropriately if you use these corpora in your research.:
+Please cite appropriately if you use these corpora in your research:
 
 - **UD_Portuguese-DANTEStocks**
   - Repository: [https://github.com/UniversalDependencies/UD_Portuguese-DANTEStocks](https://github.com/UniversalDependencies/UD_Portuguese-DANTEStocks)

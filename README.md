@@ -89,4 +89,4 @@ If you encounter any issues or have questions, please open an issue in this repo
 
 ## Acknowledgments
 
-Genipapo was developed using the [Stanza](https://stanfordnlp.github.io/stanza/) library. We thank the Stanford NLP Group for providing such a powerful tool for natural language processing.
+Genipapo was developed using the [Stanza](https://stanfordnlp.github.io/stanza/) library. We thank the Stanford NLP Group for providing this tool for the NLP community.

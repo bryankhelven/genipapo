@@ -5,7 +5,7 @@ import sys
 
 def download_genipapo_model():
     # Direct download URL from GitHub Releases
-    model_url = 'https://github.com/bryankhelven/genipapo/releases/download/v1.0/genipapo.pt'
+    model_url = 'https://github.com/bryankhelven/genipapo/releases/download/Publishing/genipapo.pt'
     model_dir = os.path.join('models')
     model_path = os.path.join(model_dir, 'genipapo.pt')
     model_checksum = 'd41d8cd98f00b204e9800998ecf8427e'  # Replace with the actual checksum
@@ -48,3 +48,4 @@ def download_genipapo_model():
 
 if __name__ == '__main__':
     download_genipapo_model()
+
