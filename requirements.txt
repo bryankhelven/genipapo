@@ -1,0 +1,17 @@
+torch>=1.7.1
+stanza>=1.2
+requests>=2.25.1
+conllu>=4.4.2
+
+# Note:
+# Ensure that `libffi` is installed on your system, as it is required for compatibility with PyTorch.
+# Installation instructions by operating system:
+# 
+# - **Ubuntu/Debian**: Run `sudo apt install libffi-dev`
+# - **CentOS/RHEL**: Run `sudo yum install libffi-devel`
+# - **macOS**: Install via Homebrew with `brew install libffi`
+# - **Windows**: `libffi` is included in Windows Python distributions, so no extra installation is typically needed.
+# 
+# On WSL (Windows Subsystem for Linux), use the same command as for Linux distributions.
+# If you encounter issues, check if `libffi.so.6` exists. If missing, create a symbolic link to the installed version:
+# `sudo ln -s /usr/lib/x86_64-linux-gnu/libffi.so.7 /usr/lib/x86_64-linux-gnu/libffi.so.6`

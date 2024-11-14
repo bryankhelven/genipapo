@@ -1,0 +1,52 @@
+# sent_id = dante_01_441020223408578560l
+# text = #PETR4 - Análise #Ichimoku - pregão de sexta-feira, 28 de fevereiro. http://t.co/oAHK5pB3e0
+1	#PETR4	#PETR4	PROPN	_	_	_	_	_	_
+2	-	-	PUNCT	_	_	_	_	_	_
+3	Análise	Análise	PROPN	_	_	_	_	_	_
+4	#Ichimoku	#Ichimoku	PROPN	_	_	_	_	_	_
+5	-	-	PUNCT	_	_	_	_	_	_
+6	pregão	pregão	NOUN	_	Gender=Masc|Number=Sing	_	_	_	_
+7	de	de	ADP	_	_	_	_	_	_
+8	sexta-feira	sexta-feira	NOUN	_	Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	_	_	_	_
+10	28	28	NUM	_	NumType=Card	_	_	_	_
+11	de	de	ADP	_	_	_	_	_	_
+12	fevereiro	fevereiro	NOUN	_	Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	_	_	_	_
+14	http://t.co/oAHK5pB3e0	http://t.co/oAHK5pB3e0	SYM	_	_	_	_	_	SpaceAfter=No
+
+# sent_id = FOLHA_DOC000123_SENT016
+# text = O Capitão América também bajulou o tucano.
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	_	_	_	_
+2	Capitão	Capitão	PROPN	_	_	_	_	_	_
+3	América	América	PROPN	_	_	_	_	_	_
+4	também	também	ADV	_	_	_	_	_	_
+5	bajulou	bajular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	_	_	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	_	_	_	_
+7	tucano	tucano	NOUN	_	Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	_	_	_	SpaceAfter=No
+
+# sent_id = 119-20141209-TESEMSC_0-9
+# text = Atualmente, a bentonita sódica é a argila comercial mais utilizada em fluidos de perfuração (Amorim, 2003).
+1	Atualmente	atualmente	ADV	_	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	_	_	_	_
+3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	_	_	_	_
+4	bentonita	bentonita	NOUN	_	Gender=Fem|Number=Sing	_	_	_	_
+5	sódica	sódico	ADJ	_	Gender=Fem|Number=Sing	_	_	_	_
+6	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	_	_	_	_
+8	argila	argila	NOUN	_	Gender=Fem|Number=Sing	_	_	_	_
+9	comercial	comercial	ADJ	_	Gender=Fem|Number=Sing	_	_	_	_
+10	mais	mais	ADV	_	_	_	_	_	_
+11	utilizada	utilizar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	_	_	_	_
+12	em	em	ADP	_	_	_	_	_	_
+13	fluidos	fluido	NOUN	_	Gender=Masc|Number=Plur	_	_	_	_
+14	de	de	ADP	_	_	_	_	_	_
+15	perfuração	perfuração	NOUN	_	Gender=Fem|Number=Sing	_	_	_	_
+16	(	(	PUNCT	_	_	_	_	_	SpaceAfter=No
+17	Amorim	Amorim	PROPN	_	Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	_	_	_	_
+19	2003	2003	NUM	_	NumType=Card	_	_	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	_	_	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	_	_	_	_
+

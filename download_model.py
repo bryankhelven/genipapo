@@ -8,7 +8,6 @@ def download_genipapo_model():
     model_url = 'https://github.com/bryankhelven/genipapo/releases/download/Publishing/genipapo.pt'
     model_dir = os.path.join('models')
     model_path = os.path.join(model_dir, 'genipapo.pt')
-    model_checksum = 'd41d8cd98f00b204e9800998ecf8427e'  # Replace with the actual checksum
 
     if not os.path.exists(model_dir):
         os.makedirs(model_dir)
@@ -35,16 +34,8 @@ def download_genipapo_model():
             if chunk:
                 f.write(chunk)
 
-    print("Download completed. Verifying checksum...")
-    with open(model_path, 'rb') as f:
-        data = f.read()
-        checksum = hashlib.md5(data).hexdigest()
-    if checksum == model_checksum:
-        print("Checksum verified. Model is ready to use.")
-    else:
-        print("Checksum mismatch. Please try downloading the model again.")
-        os.remove(model_path)
-        sys.exit(1)
+    print("Download completed. Model is ready to use.")
+
 
 if __name__ == '__main__':
     download_genipapo_model()

@@ -20,6 +20,7 @@ This repository contains all files utilized in the paper titled "Genipapo: A Mul
 - `download_model.py`: Script to download the Genipapo model.
 - `run_parser.py`: Script to run the parser on your `.conllu` file.
 - `training/`: A folder containing instructions to reproduce the training of the Genipapo model.
+- `example.conllu`: A sample `.conllu` file provided for testing the parser.
 
 ## Instructions
 
@@ -56,6 +57,12 @@ python download_model.py
 
 Ensure you have a valid **`.conllu`** file to use as input. **It is STRICTLY NECESSARY** that this file has appropriate POS tags and the 10 columns specified in the [CoNLL-U format](https://universaldependencies.org/format.html).
 
+For convenience, an example .conllu file named example.conllu is provided in the root directory. You can use it to test the parser:
+
+```bash
+python run_parser.py example.conllu
+```
+
 ### 5. Run the Parser
 
 To process your file, run the `run_parser.py` script, passing the path to your `.conllu` file:
@@ -72,7 +79,7 @@ To reproduce the training process to obtain `genipapo.pt`, navigate to the `trai
 
 ## Additional Information
 
-- The scripts are compatible with Python 3.9 and have been tested on Windows and Linux.
+- The scripts are compatible with Python 3.8 and have been tested on Windows and Linux.
 - For more information about Stanza and its capabilities, visit the [Stanza Documentation](https://stanfordnlp.github.io/stanza/).
 
 ## Troubleshooting
