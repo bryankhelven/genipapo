@@ -6,7 +6,7 @@ Genipapo is a multigenre dependency parser specifically tailored for Brazilian P
 This repository contains all files utilized in the paper titled "Genipapo: A Multigenre Dependency Parser for Brazilian Portuguese," accepted at the 15th STIL (Symposium on Information and Human Language Technology). It includes the proposed model, which enables parsing of Portuguese texts.
 
 
-An implementation of this model is available in an online interface at the address: https://genipapo-parser.azurewebsites.net.
+- An implementation of this parser is available in an online interface at the address: https://genipapo-parser.azurewebsites.net.
 
 ## Requirements
 
