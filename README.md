@@ -104,3 +104,8 @@ If you encounter any issues or have questions, please open an issue in this repo
 - This work was carried out at the Center for Artificial Intelligence of the University of São Paulo (C4AI - [http://c4ai.inova.usp.br/](http://c4ai.inova.usp.br/)), with support by the São Paulo Research Foundation (FAPESP grant #2019/07665-4) and by the IBM Corporation. The project was also supported by the Ministry of Science, Technology and Innovation, with resources of Law N. 8.248, of October 23, 1991, within the scope of PPI-SOFTEX, coordinated by Softex and published as Residence in TIC 13, DOU 01245.010222/2022-44.
 
 - Genipapo was developed using the [Stanza](https://stanfordnlp.github.io/stanza/) library. We thank the Stanford NLP Group for providing this tool for the NLP community.
+
+## How to cite
+
+Di Felippo, A.; Roman, N.T.; Barbosa, B.K.S.; Pardo, T.A.S.; Genipapo - a Multigenre Dependency Parsing for Brazilian Portuguese. In the Proceedings of the 15th Symposium in Information and Human Language Technology (STIL). November, 17-21. Belém-PA, Brazil. To appear.
+
