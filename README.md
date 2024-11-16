@@ -7,6 +7,7 @@ This repository contains all files utilized in the paper titled "Genipapo: A Mul
 
 
 - An implementation of this parser is available in an online interface at the address: https://genipapo-parser.azurewebsites.net.
+- If you want to build locally your own Genipapo Web, visit: https://github.com/bryankhelven/genipapo_web.
 
 ## Requirements
 
